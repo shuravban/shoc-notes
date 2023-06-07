@@ -272,10 +272,12 @@ function main_menu:OnKeyboard(dik, keyboard_action) -- virtual function
         --  else
 
         if dik == DIK_keys.DIK_Q then
-            -- dangerous
-            -- self:OnMessageQuitWin()
+            -- dangerous self:OnMessageQuitWin()
         elseif dik == DIK_keys.DIK_F1 then -- TODO: check for dik_f1
-            -- pass
+            local status, result = pcall(dofile, 
+                                    [[..\gamedata\scripts\__test.script]])
+            get_console():execute(status and "Successful!" 
+                                          or string.gsub(result, " ", "_"))
         end
 
     end
