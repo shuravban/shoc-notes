@@ -1,0 +1,110 @@
+dik_1           | 1
+dik_2           | 2
+dik_3           | 3
+dik_4           | 4
+dik_5           | 5
+dik_6           | 6
+dik_7           | 7
+dik_8           | 8
+dik_9           | 9
+dik_0           | 0
+dik_a           | A
+dik_b           | B
+dik_c           | C
+dik_d           | D
+dik_e           | E
+dik_f           | F
+dik_g           | G
+dik_h           | H
+dik_i           | I
+dik_j           | J
+dik_k           | K
+dik_l           | L
+dik_m           | M
+dik_n           | N
+dik_o           | O
+dik_p           | P
+dik_q           | Q
+dik_r           | R
+dik_s           | S
+dik_t           | T
+dik_u           | U
+dik_v           | V
+dik_w           | W
+dik_x           | X
+dik_y           | Y
+dik_z           | Z
+dik_comma       | ,
+dik_period      | .
+dik_semicolon   | ;
+dik_apostrophe  | '
+dik_minus       | -
+dik_equals      | =
+dik_lbracket    | [
+dik_rbracket    | ]
+dik_grave       | ` (~ и "Ё")
+dik_backslash   | \
+dik_slash       | /
+dik_space       | Space
+dik_tab         | Tab
+dik_return      | Enter
+dik_back        | BackSpace
+dik_escape      | Esc
+dik_lcontrol    | Левый Ctrl
+dik_rcontrol    | Правый Ctrl
+dik_lshift      | Левый Shift
+dik_rshift      | Правый Shift
+dik_lmenu       | Левый Alt
+dik_rmenu       | Правый Alt
+dik_lwin        | Левая кнопка Win
+dik_rwin        | Правая кнопка Win
+dik_apps        | Кнопка контекстного меню
+dik_f1          | F1
+dik_f2          | F2
+dik_f3          | F3
+dik_f4          | F4
+dik_f5          | F5
+dik_f6          | F6
+dik_f7          | F7
+dik_f8          | F8
+dik_f9          | F9
+dik_f10         | F10
+dik_f11         | F11
+dik_f12         | F12
+dik_capital     | Caps Lock
+dik_numlock     | Num Lock
+dik_scroll      | Scroll Lock
+dik_numpad0     | 0 на цифровой клавиатуре
+dik_numpad1     | 1 на цифровой клавиатуре
+dik_numpad2     | 2 на цифровой клавиатуре
+dik_numpad3     | 3 на цифровой клавиатуре
+dik_numpad4     | 4 на цифровой клавиатуре
+dik_numpad5     | 5 на цифровой клавиатуре
+dik_numpad6     | 6 на цифровой клавиатуре
+dik_numpad7     | 7 на цифровой клавиатуре
+dik_numpad8     | 8 на цифровой клавиатуре
+dik_numpad9     | 9 на цифровой клавиатуре
+dik_divide      | / на цифровой клавиатуре
+dik_multiply    | * на цифровой клавиатуре
+dik_subtract    | - на цифровой клавиатуре
+dik_add         | + на цифровой клавиатуре
+dik_decimal     | . на цифровой клавиатуре
+dik_numpadenter | Enter на цифровой клавиатуре
+dik_numpadcomma | Точка на цифровой клавиатуре
+dik_insert      | Insert
+dik_delete      | Delete
+dik_home        | Home
+dik_end         | End
+dik_prior       | Page Up
+dik_next        | Page Down
+dik_sysrq       | SysRp/Prt (Scr
+dik_pause       | Pause
+dik_left        | Стрелка влево
+dik_right       | Стрелка вправо
+dik_up          | Стрелка вверх
+dik_down        | Стрелка вниз
+mouse_1         | Правая кнопка мыши
+mouse_2         | Левая кнопка мыши
+mouse_3         | Средняя кнопка мыши
+mouse_4         | 4 кнопка мыши
+mouse_5         | 5 кнопка мыши
