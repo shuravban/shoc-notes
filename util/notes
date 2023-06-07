@@ -1,0 +1,51 @@
+Indentation - Indenting often uses two spaces. This is followed in
+Programming in Lua, the Lua Reference Manual, Beginning Lua Programming,
+and the Lua users wiki.
+
+LuaRocks uses 3 spaces - бред.
+
+Хочется на 2, но 4 - а) более распространенный, б) по умолчанию в
+luaformatter
+
+https://www.opensourceagenda.com/projects/luaformatter
+
+Надо компилировать. Компилируется с кучей зависимостей (ANTLR) и долго((
+
+~~~
+
+В скриптах используется ширина 120 символов. Надо бы на 80. С заменой
+табов справляется luaformater.
+
+~~~
+
+"Вручную" табы можно убрать так, но лучше, конечно, форматер, тем более
+они там и в середине строк используется для "красивого" оформления кода.
+
+Collecting the best comments from Gene's answer, the best solution by far, is
+by using sponge from moreutils.
+
+sudo apt-get install moreutils
+
+# The complete one-liner:
+
+find ./ -iname '*.java' -type f -exec bash -c 'expand -t 4 "$0" | sponge "$0"' {} \;
+
+Explanation:
+
+    ./ is recursively searching from current directory
+    -iname is a case insensitive match (for both *.java and *.JAVA likes)
+    type -f finds only regular files (no directories, binaries or symlinks)
+    -exec bash -c execute following commands in a subshell for each file name, {}
+    expand -t 4 expands all TABs to 4 spaces
+    sponge soak up standard input (from expand) and write to a file (the same one)*.
+
+MY:
+
+find ./ -iname '*.script' -type f -exec bash -c 'expand -t 2 "$0" | sponge "$0"' {} \;
+
+~~~
+
+recode cp1251..utf8 *
+
+CRLF to LF too. Не использовать `-f` - дважды перекодирует utf.
+
