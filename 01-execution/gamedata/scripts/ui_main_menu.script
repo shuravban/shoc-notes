@@ -285,4 +285,4 @@ function main_menu:OnKeyboard(dik, keyboard_action) -- virtual function
     return true
 end
 
--- vim:ft=lua fenc=utf-8
+-- vim:ft=lua fenc=utf-8:
