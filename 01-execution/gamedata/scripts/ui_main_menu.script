@@ -273,9 +273,9 @@ function main_menu:OnKeyboard(dik, keyboard_action) -- virtual function
 
         if dik == DIK_keys.DIK_Q then
             -- dangerous self:OnMessageQuitWin()
-        elseif dik == DIK_keys.DIK_F1 then -- TODO: check for dik_f1
+        elseif dik == DIK_keys.DIK_T then -- TODO: check for dik_f1
             local status, result = pcall(dofile, 
-                                    [[..\gamedata\scripts\__test.script]])
+                                    [[..\gamedata\scripts\app_exec.script]])
             get_console():execute(status and "Successful!" 
                                           or string.gsub(result, " ", "_"))
         end

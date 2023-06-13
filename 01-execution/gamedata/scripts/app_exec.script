@@ -1,0 +1,6 @@
+-- NB. Only cp1251 for messages
+-- vim: set ft=lua,fenc=cp1251
+
+local actor = db.actor
+news_manager.send_tip(actor, "Привет!")
+
